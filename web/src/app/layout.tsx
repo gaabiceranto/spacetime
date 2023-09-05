@@ -19,15 +19,7 @@ export default function RootLayout({
     <html lang="en">
     <body 
     className=
-    {`
-
-    ${roboto.variable} 
-    ${baiJamjure.variable} 
-    font-sans
-    bg-gray-900
-    text-gray-100
-    
-    `}>{children}</body>
+    {`${roboto.variable} ${baiJamjure.variable} bg-gray-900 text-gray-100 font-sans`}>{children}</body>
     </html>
   )
 }

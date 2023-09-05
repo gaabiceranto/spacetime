@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily:{
-        sans: 'var(--font--roboto)',
+        sans: 'var(--font-roboto)',
         alt: 'var(--font-bai-jamjuree)'
+      },
+      fontSize:{
+        '5xl':'2.5rem'
       },
       backgroundImage: {
         stripes: 'linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 12.5%, transparent 12.5%,transparent)'
