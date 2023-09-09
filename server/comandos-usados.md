@@ -19,3 +19,7 @@ Biblioteca para validar id
 
 Segurança Cors - técnica de segurança para determinar quais url vai poder acessar o o backend
 >npm i @fastify/cors
+
+Instala o Axios para requisão http fetch
+>npm i axios
+
